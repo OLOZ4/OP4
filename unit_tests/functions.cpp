@@ -223,7 +223,7 @@ void detect_urls(std::vector <std::string>& urls) {
 
 void cleanup_urls(std::vector <std::string>& urls) {
      for (const auto& url : urls) {
-        if (url == "") urls.pop_back();
+        //if (url == "") urls.pop_back();
     }
 }
 
@@ -232,7 +232,7 @@ void write_urls(std::vector <std::string> urls) {
     std::ofstream out("urls.txt");
 
     for (const auto& url : urls) {
-        out << url << std::endl;    
+        if (url != "") out << url << std::endl;    
     }
 
     out.close();
@@ -250,7 +250,7 @@ void print_urls(std::vector <std::string> urls) {
             std::cout<<"Printing word counts:"<<std::endl;
             std::cout<<"----------------------------------"<<std::endl<<endl;
             for (const auto& url : urls) {
-                std::cout << "Found URL: " << url << std::endl;
+                if (url != "") std::cout << "Found URL: " << url << std::endl;
             }
         break;
         }
