@@ -1,6 +1,6 @@
 # Failų analizatorius
 ## Programos paskirtis
-**Šios prorgamos tikslas yra išanalizuoti jai pateikiamą duomenų failą įvairiais metodais**, apie konkrečiau galima rasti žemiau skiltyje **Programos funkcionalumas**
+**Šios prorgamos tikslas yra išanalizuoti jai pateikiamą duomenų failą įvairiais metodais**, apie konkrečiau galima rasti žemiau skiltyje **Programos naudojimo instrukcijos**
 ## Programos naudojimo instrukcijos
 + Paleidus programą turėtumėte matyti štai tokį meniu:
 ```
